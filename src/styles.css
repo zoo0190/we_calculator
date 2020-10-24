@@ -1,0 +1,64 @@
+.container {
+  background-color: black;
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+}
+
+input {
+  width: 73%;
+  height: 80%;
+  background-color: black;
+  border-style: none;
+  color: white;
+  outline-style: none;
+  text-align: right;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  padding-right: 10px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.printAndReset {
+  height: 17%;
+  margin-top: 5px;
+}
+
+.row1Box,
+.row2Box,
+.row3Box,
+.row4Box,
+.reset {
+  width: 24%;
+  height: 100%;
+  color: white;
+  background-color: #363439;
+  border-radius: 12px;
+  outline-style: none;
+  border-style: none;
+}
+
+.row1Box:active,
+.row2Box:active,
+.row3Box:active,
+.row4Box:active,
+.reset:active {
+  opacity: 0.7;
+}
+
+.long {
+  width: 49%;
+  margin-right: 1px;
+}
+
+.function {
+  background-color: #fe8e00;
+}
+
+.reset {
+  background-color: #a7aab1;
+}
